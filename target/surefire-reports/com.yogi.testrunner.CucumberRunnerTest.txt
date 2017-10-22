@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.yogi.testrunner.CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 15.127 sec <<< FAILURE! - in com.yogi.testrunner.CucumberRunnerTest
+When I search vehicle from "User_org_sc_01_CA_01" filetype at "OrgB_org_sc_01_CA_DS1" location(| User_org_sc_01_CA_01 | OrgB_org_sc_01_CA_DS1 |)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.yogi.stepdef.DvlaRegistrationStepDef.i_search_vehicle_from_filetype_at_location(DvlaRegistrationStepDef.java:31)
+	at ✽.When I search vehicle from "User_org_sc_01_CA_01" filetype at "OrgB_org_sc_01_CA_DS1" location(cucumber/DvlaRegistrationSearch.feature:7)
+
+| User_org_sc_01_CA_01 | OrgB_org_sc_01_CA_DS1 |  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.yogi.stepdef.DvlaRegistrationStepDef.i_search_vehicle_from_filetype_at_location(DvlaRegistrationStepDef.java:31)
+	at ✽.When I search vehicle from "User_org_sc_01_CA_01" filetype at "OrgB_org_sc_01_CA_DS1" location(cucumber/DvlaRegistrationSearch.feature:7)
+

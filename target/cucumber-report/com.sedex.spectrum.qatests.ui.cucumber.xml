@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.624674">
+<testcase classname="Dvla vehicle search functionality" name="Search vehicle from dvla vehicle search functionality" time="35.624674">
+<system-out><![CDATA[Given I goTo dvla vehicle search page.......................................passed
+When I search vehicle from "DVLA.xlsx" filetype at "C:/Automation/vehicleManagement/" location.passed
+]]></system-out>
+</testcase>
+</testsuite>

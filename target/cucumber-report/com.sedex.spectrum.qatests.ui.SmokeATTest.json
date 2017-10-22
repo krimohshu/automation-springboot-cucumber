@@ -1,0 +1,80 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Search vehicle from dvla vehicle search functionality",
+        "description": "",
+        "id": "dvla-vehicle-search-functionality;search-vehicle-from-dvla-vehicle-search-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11522452749,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I goTo dvla vehicle search page",
+            "match": {
+              "location": "DvlaRegistrationStepDef.i_goTo_dvla_vehicle_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24102221078,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search vehicle from \"DVLA.xlsx\" filetype at \"C:/Automation/vehicleManagement/\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DVLA.xlsx",
+                  "offset": 23
+                },
+                {
+                  "val": "C:/Automation/vehicleManagement/",
+                  "offset": 47
+                }
+              ],
+              "location": "DvlaRegistrationStepDef.i_search_vehicle_from_filetype_at_location(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@dvlasearch"
+          },
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 2,
+            "name": "@DvlaRegistrationSearc"
+          }
+        ]
+      }
+    ],
+    "name": "Dvla vehicle search functionality",
+    "description": "",
+    "id": "dvla-vehicle-search-functionality",
+    "keyword": "Feature",
+    "uri": "cucumber/DvlaRegistrationSearch.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@DvlaRegistrationSearc"
+      }
+    ]
+  }
+]
