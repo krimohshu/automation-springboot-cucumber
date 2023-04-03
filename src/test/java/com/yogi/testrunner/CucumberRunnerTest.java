@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         ,dryRun = false
         ,glue = {"classpath:"}
       //  ,tags = "@dvlasearch"
-        //,dryrun=true
         ,format = {"json:target/cucumber-report/com.sedex.spectrum.qatests.ui.SmokeATTest.json",
                 "html:target/cucumber-report/com.sedex.spectrum.qatests.ui.SmokeATTest",
         "junit:target/cucumber-report/com.sedex.spectrum.qatests.ui.cucumber.xml"}
